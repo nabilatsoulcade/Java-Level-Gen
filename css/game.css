@@ -4,6 +4,11 @@
 .background td { padding: 0;          }
 .lava          { background: red; }
 .wall          { background: rgb(221, 137, 137); border-top: -3px;  }
+
+.actor  { position: absolute;  }
+.coin   { background: rgb(241, 229, 89); }
+.player {background: #ffcc00; border-radius: 5px;}
+
 .floater       {background: #ffcc00; border-radius: 5px;}
 .topwall {
  background: rgb(221, 137, 137);
