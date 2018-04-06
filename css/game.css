@@ -1,13 +1,19 @@
-.background    { background: rgb(52, 166, 251);
+.background    { background: rgb(0,183,234); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(0,183,234,1) 0%, rgba(0,158,195,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(0,183,234,1) 0%,rgba(0,158,195,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(0,183,234,1) 0%,rgba(0,158,195,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00b7ea', endColorstr='#009ec3',GradientType=0 ); /* IE6-9 */
                  table-layout: fixed;
                  border-spacing: 0;   }
 .background td { padding: 0;          }
 .lava          { background: red; }
-.wall          { background: rgb(221, 137, 137); border-top: -3px;  }
-
+.wall          {border: 1px solid rgb(168, 119, 91); background-color: rgb(221, 137, 137); background-blend-mode: normal;
+}
+.grass {border: 1px solid #5C822A; background-color: #76A635; background-blend-mode: normal;
+}
 .actor  { position: absolute;  }
-.coin   { background: rgb(241, 229, 89); }
-.player {background: #ffcc00; border-radius: 5px;}
+.coin   { background: rgb(241, 229, 89); box-shadow:0px 0px 0px 2px #B8AE44 inset;border-radius: 15px;}
+.player {background: #990000;box-shadow:0px 0px 0px 2px #810000 inset;}
 
 .floater       {background: #ffcc00; border-radius: 5px;}
 .topwall {
@@ -18,5 +24,8 @@
  border-width: 3px 0px 0px;
 }
 .game {
+  overflow: hidden;
+  max-width: 950px;
+  max-height: 540px;
   position: relative;
 }
