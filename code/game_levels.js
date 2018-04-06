@@ -56,7 +56,19 @@ var GAME_LEVELS = [
       "xxxxxxxxxxxxxxxx    xxxxxxxxxxxxxxxxxxxxx       xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
       "xxxxxxxxxxxxxxxx    xxxxxxxxxxxxxxxxxxxxx       xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
       "xxxxxxxxxxxxxxxx!!!!xxxxxxxxxxxxxxxxxxxxx!!!!!!!xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"]
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"],
+      ["                              ",
+       "       x     x  x  x   x      ",
+       "       x  x  x     xx  x      ",
+       "       x x x x  x  x x x      ",
+       "       xx   xx  x  x  xx      ",
+       "                              ",
+       "   @                          ",
+       "gggggggggggggggggggggggggggggg",
+       "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+       "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+       "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+       "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"]
 ];
 
 if (typeof module != "undefined" && module.exports)
